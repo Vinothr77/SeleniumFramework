@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Ecommers Automation suit">
+	<listeners>
+		<listener class-name="com.mystore.listeners.Mylisteners"/>
+		</listeners>
+  <test name="Ecommers Testcases">
+    <classes>
+      <class name="Stepdefinition.productSearchTest"/>
+      <class name="Stepdefinition.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
